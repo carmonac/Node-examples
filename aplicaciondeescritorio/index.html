@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Node Webkit</title>
+    <script type="text/javascript">
+		var gui = require('nw.gui');
+
+		// creamos un contenedor menu
+		var Menu = new gui.Menu({
+		    type:   'menubar'
+		});
+
+		// Creamos un nuevo root menu
+		var CustomMenu = new gui.Menu();
+
+		// añadimos un item
+		CustomMenu.append(
+		    new gui.MenuItem({
+		        label: 'Item 1',
+		        click: function(){
+		        	alert("Pulsado en menu item 1");
+		        }
+		    })
+		);
+
+		// añadimos otro item
+		CustomMenu.append(
+		    new gui.MenuItem({
+		        label: 'Item 2',
+		        click: function(){
+		        	alert("Pulsado en menu item 2");
+		        }
+		    })
+		);
+
+		// Añadimos los items al root menu
+		Menu.append(
+		    new gui.MenuItem({
+		        label: 'Custom Menu',
+		        submenu: CustomMenu
+		    })
+		);
+
+
+
+		// Añadimos menu al menu principañ
+		
+		gui.Window.get().menu = Menu;
+    </script>
+</head>
+<body>
+    <h1>Hola desde Node Webkit</h1>
+</body>
+</html>

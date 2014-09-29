@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nw.gui' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json helloWorld@0.0.1 No repository field.
+5 warn package.json helloWorld@0.0.1 No README data
+6 warn package.json nw@0.0.0 No repository field.
+7 warn package.json nw@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'nw.gui', null ]
+10 verbose cache add name=undefined spec="nw.gui" args=["nw.gui",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'nw.gui',
+11 verbose parsed url   path: 'nw.gui',
+11 verbose parsed url   href: 'nw.gui' }
+12 silly lockFile 8110d5e4-nw-gui nw.gui
+13 verbose lock nw.gui /Users/careuno/.npm/8110d5e4-nw-gui.lock
+14 silly lockFile 8110d5e4-nw-gui nw.gui
+15 silly lockFile 8110d5e4-nw-gui nw.gui
+16 verbose addNamed [ 'nw.gui', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile ba6493a0-nw-gui nw.gui@
+19 verbose lock nw.gui@ /Users/careuno/.npm/ba6493a0-nw-gui.lock
+20 silly addNameRange { name: 'nw.gui', range: '*', hasData: false }
+21 verbose request where is /nw.gui
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id ede60583681cc08c
+24 verbose url raw /nw.gui
+25 verbose url resolving [ 'https://registry.npmjs.org/', './nw.gui' ]
+26 verbose url resolved https://registry.npmjs.org/nw.gui
+27 verbose request where is https://registry.npmjs.org/nw.gui
+28 info trying registry request attempt 1 at 21:30:32
+29 http GET https://registry.npmjs.org/nw.gui
+30 http 404 https://registry.npmjs.org/nw.gui
+31 verbose headers { date: 'Mon, 29 Sep 2014 19:30:38 GMT',
+31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=0',
+31 verbose headers   'content-length': '52',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   'x-served-by': 'cache-ams4132-AMS',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1412019038.404137,VS0,VE172',
+31 verbose headers   'keep-alive': 'timeout=10, max=50',
+31 verbose headers   connection: 'Keep-Alive' }
+32 silly registry.get cb [ 404,
+32 silly registry.get   { date: 'Mon, 29 Sep 2014 19:30:38 GMT',
+32 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=0',
+32 silly registry.get     'content-length': '52',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     'x-served-by': 'cache-ams4132-AMS',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1412019038.404137,VS0,VE172',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 silly lockFile ba6493a0-nw-gui nw.gui@
+34 silly lockFile ba6493a0-nw-gui nw.gui@
+35 error 404 404 Not Found: nw.gui
+35 error 404
+35 error 404 'nw.gui' is not in the npm registry.
+35 error 404 You should bug the author to publish it
+35 error 404 It was specified as a dependency of 'helloWorld'
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, or http url, or git url.
+36 error System Darwin 13.4.0
+37 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "nw.gui"
+38 error cwd /Users/careuno/Desktop/Ejemplos/aplicaciondeescritorio
+39 error node -v v0.10.32
+40 error npm -v 1.4.28
+41 error code E404
+42 verbose exit [ 1, true ]
