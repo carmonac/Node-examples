@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registro</title>
+	</head>
+	<body>
+		<h1>Registro</h1>
+		<ul>
+			<li>Nombre: {{nombre}}</li>
+			<li>Email: {{email}}</li>
+			<li>Password: {{password}}</li>
+		</ul>
+		{% if nombre === "Carlos" %}
+			<p>Ese soy yo</p>
+		{% endif %}
+
+		<p>El usuarios se ha registrado a las {{fecha.toString()}}</p>
+
+	</body>
+
+</html>

@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express-session' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose config Skipping project config: /Users/careuno/.npmrc. (matches userconfig)
+5 verbose cache add [ 'express-session', null ]
+6 verbose cache add name=undefined spec="express-session" args=["express-session",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express-session',
+7 verbose parsed url   path: 'express-session',
+7 verbose parsed url   href: 'express-session' }
+8 silly lockFile 6ca9c35e-express-session express-session
+9 verbose lock express-session /Users/careuno/.npm/6ca9c35e-express-session.lock
+10 silly lockFile 6ca9c35e-express-session express-session
+11 silly lockFile 6ca9c35e-express-session express-session
+12 verbose addNamed [ 'express-session', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 03cac062-express-session express-session@
+15 verbose lock express-session@ /Users/careuno/.npm/03cac062-express-session.lock
+16 silly addNameRange { name: 'express-session', range: '*', hasData: false }
+17 verbose request where is /express-session
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id bb8f055ae843788a
+20 verbose url raw /express-session
+21 verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+22 verbose url resolved https://registry.npmjs.org/express-session
+23 verbose request where is https://registry.npmjs.org/express-session
+24 info trying registry request attempt 1 at 11:37:15
+25 verbose etag "47HH41IW0OSH9R0LF0F0L1PNC"
+26 http GET https://registry.npmjs.org/express-session
+27 http 304 https://registry.npmjs.org/express-session
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 30 Sep 2014 09:37:16 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 30 Sep 2014 09:36:37 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"47HH41IW0OSH9R0LF0F0L1PNC"',
+28 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '3',
+28 silly registry.get     'x-timer': 'S1412069836.830733,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/express-session from cache
+30 silly addNameRange number 2 { name: 'express-session', range: '*', hasData: true }
+31 silly addNameRange versions [ 'express-session',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.3.1',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.5.0',
+31 silly addNameRange     '1.5.1',
+31 silly addNameRange     '1.5.2',
+31 silly addNameRange     '1.6.0',
+31 silly addNameRange     '1.6.1',
+31 silly addNameRange     '1.6.2',
+31 silly addNameRange     '1.6.3',
+31 silly addNameRange     '1.6.4',
+31 silly addNameRange     '1.6.5',
+31 silly addNameRange     '1.7.0',
+31 silly addNameRange     '1.7.1',
+31 silly addNameRange     '1.7.2',
+31 silly addNameRange     '1.7.3',
+31 silly addNameRange     '1.7.4',
+31 silly addNameRange     '1.7.5',
+31 silly addNameRange     '1.7.6',
+31 silly addNameRange     '1.8.0',
+31 silly addNameRange     '1.8.1',
+31 silly addNameRange     '1.8.2' ] ]
+32 verbose addNamed [ 'express-session', '1.8.2' ]
+33 verbose addNamed [ '1.8.2', '1.8.2' ]
+34 silly lockFile 4cb4b55c-express-session-1-8-2 express-session@1.8.2
+35 verbose lock express-session@1.8.2 /Users/careuno/.npm/4cb4b55c-express-session-1-8-2.lock
+36 silly lockFile 0f95824d-ession-express-session-1-8-2-tgz https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+37 verbose lock https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz /Users/careuno/.npm/0f95824d-ession-express-session-1-8-2-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz',
+38 verbose addRemoteTarball   'c4011e728a2349b3c18f117a5409908985e83483' ]
+39 info retry fetch attempt 1 at 11:37:16
+40 verbose fetch to= /var/folders/4v/jm_m8wwd0p73zcvffy0gfvqh0000gn/T/npm-16399-BTxQXLKk/registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+41 http GET https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+42 http 200 https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+43 silly lockFile 0f95824d-ession-express-session-1-8-2-tgz https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+44 silly lockFile 0f95824d-ession-express-session-1-8-2-tgz https://registry.npmjs.org/express-session/-/express-session-1.8.2.tgz
+45 silly lockFile 4cb4b55c-express-session-1-8-2 express-session@1.8.2
+46 silly lockFile 4cb4b55c-express-session-1-8-2 express-session@1.8.2
+47 silly lockFile 03cac062-express-session express-session@
+48 silly lockFile 03cac062-express-session express-session@
+49 error Error: EACCES, mkdir '/Users/careuno/.npm/express-session/1.8.2'
+49 error  { [Error: EACCES, mkdir '/Users/careuno/.npm/express-session/1.8.2']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/Users/careuno/.npm/express-session/1.8.2' }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 13.4.0
+52 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express-session"
+53 error cwd /Users/careuno/Desktop/Node-examples/express-ejemplo
+54 error node -v v0.10.32
+55 error npm -v 1.4.28
+56 error path /Users/careuno/.npm/express-session/1.8.2
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/Users/careuno/.npm/express-session/1.8.2'
+60 verbose exit [ 3, true ]
